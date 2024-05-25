@@ -1,0 +1,54 @@
+body {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		gap: 3rem;
+
+		padding: 2rem 0;
+
+		background: black;
+
+		font-family: 'SST', sans-serif;
+}
+
+#app {
+		display: grid;
+		gap: 5rem;
+
+		grid-template-columns: repeat(3, 1fr);
+}
+
+.container {
+		display: grid;
+		gap: 5rem;
+
+		width: 100%;
+		margin: 0 auto;
+
+		grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+		padding: 2rem;
+
+		background: black;
+		box-shadow: 5px 5px 25px rgb(0, 0, 141);
+		border-radius: 1.5rem;
+
+		text-align: center;
+}
+
+.card-img-top {
+		width: 2rem;
+
+		border-radius: 50%;
+}
+
+img {
+		width: 100%;
+}
+
+.card-title-user {
+		margin: 2rem 0 0 0;
+}

@@ -1,0 +1,37 @@
+.card {
+		padding: 3rem;
+
+		background: black;
+		box-shadow: 5px 5px 25px rgb(117, 1, 1);
+		border-radius: 15px;
+
+		font-family: sans-serif;
+		text-align: center;
+}
+
+.card-img-top {
+		width: 10rem;
+
+		border-radius: 50%;
+}
+
+img {
+		width: 100%;
+}
+
+.card-title-user {
+		margin: 2rem 0 0 0;
+		color: white;
+}
+
+.disabled {
+		opacity: 0.5;
+}
+
+.is-small {
+		width: 1.5rem;
+}
+
+.is-large {
+		width: 2.5rem;
+}
